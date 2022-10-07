@@ -1,0 +1,40 @@
+header,
+footer {
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px 0;
+    background-color: beige;
+    padding: 20px;
+}
+.container{
+    padding: 10px;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+code{
+    background-color: rgb(240, 240, 240);
+    color: red;   
+    border-radius: 5px;
+}
+img{
+    width:100%;
+    height:auto;
+}
+
+@media(min-width:550px) {
+    body{
+        font-size: 1.1rem;
+    }
+    .container {
+        width: 60vw;
+        margin: 0 auto;
+    }
+}
